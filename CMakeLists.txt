@@ -47,6 +47,7 @@ add_subdirectory(external/poco)
 add_executable(application
   include/customer_dao.hpp
   include/customer.hpp
+  include/scope_guard.hpp
   src/customer_dao.cpp
   src/customer.cpp
   src/main.cpp)
